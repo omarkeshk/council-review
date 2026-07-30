@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.omarkeshk/council-ai",
+  "description": "Multi-LLM council MCP: parallel frontier models, consensus scoring, verdict-first code review",
+  "repository": {
+    "url": "https://github.com/omarkeshk/council-review",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://council-ai.app/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.council-ai.app/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token: a Council AI Personal Access Token (csa_...), minted at https://council-ai.app/settings?tab=mcp — requires the Ultra tier.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
