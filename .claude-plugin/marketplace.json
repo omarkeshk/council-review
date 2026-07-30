@@ -1,0 +1,27 @@
+{
+  "name": "council-ai",
+  "owner": {
+    "name": "Council AI",
+    "email": "support@council-ai.app",
+    "url": "https://council-ai.app"
+  },
+  "metadata": {
+    "description": "Official Council AI plugins for Claude Code — multi-model councils, verdict-first code review, and cross-lab second opinions.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "council-review",
+      "source": "./",
+      "description": "Multi-model code review with a verdict-first synthesis: SHIP/NO-SHIP, findings confirmed by 2+ frontier models from different AI labs, and attributed single-model dissents. Requires the Council AI MCP server (Ultra tier).",
+      "author": {
+        "name": "Council AI",
+        "url": "https://council-ai.app"
+      },
+      "homepage": "https://council-ai.app/mcp",
+      "license": "MIT",
+      "category": "code-review",
+      "keywords": ["code-review", "multi-model", "second-opinion", "llm-council", "security-review"]
+    }
+  ]
+}

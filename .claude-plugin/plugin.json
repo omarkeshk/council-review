@@ -1,0 +1,21 @@
+{
+  "name": "council-review",
+  "version": "1.0.0",
+  "description": "Multi-model code review: your diff reviewed independently by frontier models from multiple AI labs (Anthropic, OpenAI, Google, xAI, and more), synthesized into a verdict-first report — SHIP/NO-SHIP, findings confirmed by 2+ models, single-model dissents attributed. Powered by the Council AI MCP server.",
+  "author": {
+    "name": "Council AI",
+    "email": "support@council-ai.app",
+    "url": "https://council-ai.app"
+  },
+  "homepage": "https://council-ai.app/mcp",
+  "repository": "https://github.com/omarkeshk/council-review",
+  "license": "MIT",
+  "keywords": [
+    "code-review",
+    "multi-model",
+    "second-opinion",
+    "llm-council",
+    "mcp",
+    "security-review"
+  ]
+}
